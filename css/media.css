@@ -1,0 +1,303 @@
+/*=======================================================
+Extra small devices (portrait phones, less than 576px)
+=========================================================*/
+@media (max-width: 575.98px) {
+/*header start*/
+#header {
+  padding: 25px 0;
+}
+.c_nav{
+	background-color: #fff;
+}
+.cm_button {
+  width: 146px;
+  height: 40px;
+}
+/*header start*/
+  /*banner start*/
+  .b_badge {
+    width: 290px;
+    font-size: 16px;
+}
+  .b_c_text h1 {
+    margin: 15px 0;
+    font-size: 32px;
+}
+.b_c_text p {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.b_btn a {
+  margin-left: 10px;
+  display: block;
+margin-top: 6px;
+}
+  /*banner end*/
+    /*company start*/
+    .common_sec {
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+  .company_img div{
+    margin-top: 25px;
+  }
+    /*company end*/
+    /*feature start*/
+  .cm_img{
+    margin-bottom: 15px;
+  }
+  .common_heading {
+    padding-bottom: 15px;
+  }
+  .common_s_item {
+    margin-top: 30px;
+  }
+  .common_heading_h1 {
+    font-size: 27px;
+    margin-bottom: 15px;
+  }
+  .common_s_text h2 {
+    font-size: 18px;
+  }
+  .f_s_img{
+    margin-bottom: 15px;
+  }
+    /*feature end*/
+    /*jackpot start*/
+    .jackpot_h1 {
+      font-size: 27px;
+      margin-bottom: 15px;
+  }
+  .jac_head_p {
+  padding: 0 !important;
+  border: none !important;
+  }
+  .common_s_icon {
+    margin-bottom: 15px;
+  }
+    /*jackpot end*/
+    /*price start*/    
+    .price-card-top{
+      padding: 14px 0 7px 0;
+    }
+    .price-card-bottom ul li{
+      margin-top: 10px !important;
+    }
+    /*price end*/
+    /*testimonial start*/
+    .carousel-control-prev, .carousel-control-next {
+      align-items: self-end;
+      bottom: -10%;
+    } 
+ /*testimonial end*/
+ /*footer start*/
+footer{
+	padding: 35px 0;
+}
+/*footer end*/   
+}
+/*=======================================================
+Small devices (landscape phones, 576px and up)
+=========================================================*/
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+#header {
+  padding: 25px 0;
+}
+.c_nav{
+	background-color: #fff;
+}
+.cm_button {
+  width: 146px;
+  height: 42px;
+}
+/*header start*/
+  /*banner start*/
+  .b_badge {
+    width: 300px;
+    font-size: 16px;
+}
+  .b_c_text h1 {
+    margin: 16px 0;
+    font-size: 33px;
+}
+.b_c_text p {
+  margin-bottom: 25px;
+  font-size: 16px;
+}
+  /*banner end*/
+    /*company start*/
+    .common_sec {
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  .company_img div{
+    margin-top: 30px;
+  }
+    /*company end*/
+    /*feature start*/
+.cm_img{
+  margin-bottom: 20px;
+}
+.common_heading {
+  padding-bottom: 15px;
+}
+.common_s_item {
+  margin-top: 40px;
+}
+.common_heading_h1 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.common_s_text h2 {
+  font-size: 18px;
+}
+.f_s_img{
+  margin-bottom: 15px;
+}
+  /*feature end*/
+  /*jackpot start*/
+  .jackpot_h1 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.jac_head_p {
+padding: 0 !important;
+border: none !important;
+}
+.common_s_icon {
+  margin-bottom: 15px;
+}
+  /*jackpot end*/
+   /*footer start*/
+footer{
+	padding: 55px 0;
+}
+/*footer end*/  
+}
+/*===============================================
+Medium devices (tablets, 768px and up)
+=================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+#header {
+  padding: 30px 0;
+}
+.c_nav{
+	background-color: #fff;
+}
+.cm_button {
+  width: 150px;
+  height: 50px;
+}
+/*header start*/
+  /*banner start*/
+  .b_c_text h1 {
+    margin: 20px 0;
+    font-size: 42px;
+}
+.b_c_text p {
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+  /*banner end*/
+  /*company start*/
+  .common_sec {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.company_img div{
+	margin-top: 40px;
+}
+  /*company end*/
+  /*feature start*/
+  .cm_img{
+    margin-bottom: 20px;
+  }
+.common_heading {
+  padding-bottom: 20px;
+}
+.common_s_item {
+  margin-top: 50px;
+}
+.common_heading_h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+  /*feature end*/
+  /*jackpot start*/
+.jackpot_h1 {
+    font-size: 30px;
+}
+.jac_head_p {
+  padding-top: 30px !important;
+  padding-left: 30px !important;
+  padding-bottom: 30px !important;
+}
+  /*jackpot end*/
+/*ultimate feature start*/
+.ulf_h_p{
+  
+}
+/*ultimate feature end*/
+   /*footer start*/
+   footer{
+    padding: 55px 0;
+  }
+  /*footer end*/  
+}
+/*===============================================
+Large devices (desktops, 992px and up)
+=================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /*banner start*/
+  .b_c_text h1 {
+    margin: 25px 0;
+    font-size: 50px;
+}
+.b_c_text p {
+  margin-bottom: 35px;
+}
+  /*banner end*/
+}
+/*===============================================
+X-Large devices (large desktops, 1200px and up)
+=================================================*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  /*banner start*/
+  .b_c_text h1 {
+    margin: 25px 0;
+    font-size: 50px;
+}
+.b_c_text p {
+  margin-bottom: 35px;
+}
+  /*banner end*/
+  /*design start*/
+  .design h1{
+    padding-right: 30px;
+  }
+  /*design end*/
+/*ultimate feature start*/
+  .ulf_h_p{
+    padding-right: 75px;
+  }
+/*ultimate feature end*/
+
+}
+/*===============================================
+XX-Large devices (larger desktops, 1400px and up)
+=================================================*/
+@media (min-width: 1400px) {
+  /*design start*/
+  .design h1{
+    padding-right: 105px;
+  }
+  /*design end*/
+  /*ultimate feature start*/
+  .ulf_h_p{
+    padding-right: 165px;
+  }
+  /*ultimate feature end*/
+}
